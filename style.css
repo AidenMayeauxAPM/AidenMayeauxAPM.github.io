@@ -3,6 +3,7 @@ body {
     color: rgb(255, 255, 255);
     padding: 10px;
     font-family: arial;
+    background-image: URL(images/Texas\ tech\ stadium.jpeg);
 }
 #all-contents {
   max-width: 800px;
@@ -57,34 +58,39 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px rgb(0, 0, 0) ridge;
+    border: 10px rgb(255, 255, 255) ridge;
     padding: 8px;
+    border-radius: 20px;
 }
 h2, h3 {
     margin: 0px;
 }
          /* portfolio styles */
          .content h1 {
-            color: black;
+            color: white; 
         }
 
         #portfolio {
             list-style-type: none;
             padding-left: 0;
+            color: white
         }
 
         #portfolio li {
-            background: #ff0000;
+            background: #000000;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
+            color:white
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background: rgb(226, 35, 14) ;
+            
         }
 
         #portfolio a {
             text-decoration: none;
-            color: #000000;
+            color: #ffffff;
+
         }
