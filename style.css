@@ -3,7 +3,7 @@ body {
     color: rgb(255, 255, 255);
     padding: 10px;
     font-family: arial;
-    background-image: URL(images/Texas\ tech\ stadium.jpeg);
+    background-image: url(images/Texas\ tech\ stadium.jpeg);
 }
 #all-contents {
   max-width: 800px;
