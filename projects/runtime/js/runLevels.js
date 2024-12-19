@@ -75,9 +75,25 @@ enemy.fadeOut();
       };
     }
     createReward (700, 475);
-    function createMarker (x, y) {
+    function createMarker(x, y) {
+      var marker = game.createGameItem("marker", 25);
+      marker.x = x;
+      marker.y = y;
+      var blueSquare = draw.rect(50, 50, "blue");
+      blueSquare.x = -25;
+      blueSquare.y = -25;
+      marker.addChild(blueSquare);
+      marker.velocityX = -1
+      game.addGameItem(marker);
       
+      marker.onProjectileCollision = function () {
+        location.reload();
+      };
+      marker.onPlayerCollision = function () {
+        location.reload
+      };
     }
+    createMarker(2000, 485);
     function startLevel() {
       
       // TODO 13 goes below here
